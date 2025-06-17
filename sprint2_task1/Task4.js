@@ -1,0 +1,14 @@
+var name="Rose";
+var age=19;
+var dob="20-Oct_2005";
+var height=5.32;
+var weight=73.54;
+var degree="B.E Computer Science and Engineering";
+var gender="F";
+console.log("Name:",name);
+console.log("Age:",age);
+console.log("DOB:",dob);
+console.log("Height:",height);
+console.log("Weight:",weight);
+console.log("Degree:",degree);
+console.log("Gender:",gender);
