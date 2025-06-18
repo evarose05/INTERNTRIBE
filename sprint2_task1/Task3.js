@@ -1,0 +1,12 @@
+var name= "Rose";
+var age= 19;
+var isStudent=true;
+console.log("Original name:",name);
+console.log("Original age:",age);
+console.log("Original isStudent:",isStudent);
+name="Evangeline";
+age= age+1;
+isStudent=!isStudent;
+console.log("Modified name:",name);
+console.log("Modified age",age);
+console.log("Modified isStudent:",isStudent);
