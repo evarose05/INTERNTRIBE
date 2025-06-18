@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a - Total Sum of Current + Previous</title>
+</head>
+<body>
+  <h2>a - Final Sum of Current + Previous Numbers (1 to 10)</h2>
+  <script>
+    var previous = 0;
+    var totalSum = 0;
+
+    for (var current = 1; current <= 10; current++) {
+      totalSum += (current + previous);
+      previous = current;
+    }
+
+    console.log("Total Sum:", totalSum);
+    alert("Total Sum: " + totalSum);
+  </script>
+</body>
+</html>

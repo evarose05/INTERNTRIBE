@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a- Advanced Array Manipulation</title>
+</head>
+<body>
+  <h2>a- Array Manipulation</h2>
+  <script>
+    
+    function insertHalfAfterDiv5(arr) {
+      let result = [];
+      for (let num of arr) {
+        result.push(num);
+        if (num % 5 === 0) {
+          result.push(num / 2);
+        }
+      }
+      return result;
+    }
+
+    var int = [5, 10, 20, 2, 0, 33, 100, 90];
+    var modified = insertHalfAfterDiv5(int);
+    console.log("After inserting half after divisible by 5:", modified);
+  </script>
+</body>
+</html>

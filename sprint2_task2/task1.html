@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a- Array Manipulation</title>
+</head>
+<body>
+  <h2>a - Array Manipulation</h2>
+  <script>
+    function a() {
+      var arr1 = [5, 2, -7, 3, -2, -1];
+      var negativeNums = arr1.filter(num => num < 0);
+      console.log("Negative Numbers:", negativeNums);
+
+      var arr2 = [5, 10, 15, 20, 22, 23];
+      var replaced = arr2.map(num => num % 2 !== 0 ? 0 : num);
+      console.log("Replace Odd Numbers with 0:", replaced);
+    }
+    a();
+  </script>
+</body>
+</html>

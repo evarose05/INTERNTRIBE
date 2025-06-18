@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function DispMsgBasedOnAge() {
+      var age= parseInt(prompt("Enter your age:"));
+
+      if (isNaN(age)) {
+        alert("Please enter a valid number.");
+      } else if (age < 16) {
+        alert("You can't drive.");
+      } else if (age >= 16 && age <= 17) {
+        alert("You can drive but not vote.");
+      } else if (age >= 18 && age <= 24) {
+        alert("You can vote but not rent a car.");
+      } else {
+        alert("You can do pretty much anything.");
+      }
+    }
+
+    DispMsgBasedOnAge();
+  </script>
+</body>
+</html>

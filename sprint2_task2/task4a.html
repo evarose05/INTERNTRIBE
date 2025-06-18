@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a- Advanced Array Manipulation</title>
+</head>
+<body>
+  <h2>a- Array Manipulation</h2>
+  <script>
+    function duplicateZeros(arr) {
+      var result = [];
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === 0) {
+          result.push(0);
+          if (result.length < arr.length) result.push(0);
+        } else {
+          result.push(arr[i]);
+        }
+        if (result.length >= arr.length) break;
+      }
+      return result.slice(0, arr.length);
+    }
+
+    
+
+    var int= [1, 0, 2, 3, 0, 4, 5, 0];
+    var modified = duplicateZeros(int);
+    console.log("After duplicating zeros:", modified);
+
+   
+  </script>
+</body>
+</html>

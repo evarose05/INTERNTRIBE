@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a- Password Checker</title>
+</head>
+<body>
+  <h2>a- Strong Password Checker</h2>
+  <script>
+    function isStrongPassword(password) {
+      const lengthCheck = password.length >= 8;
+      const lowercase = /[a-z]/.test(password);
+      const uppercase = /[A-Z]/.test(password);
+      const digit = /\d/.test(password);
+      const special = /[\W_]/.test(password);
+
+      return lengthCheck && lowercase && uppercase && digit && special;
+    }
+
+    var userPassword = prompt("Enter a password to check:");
+    if (isStrongPassword(userPassword)) {
+      console.log("Password is strong.");
+    } else {
+      console.log("Password is not strong.");
+    }
+  </script>
+</body>
+</html>

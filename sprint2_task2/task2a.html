@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a - Sub 1: Sum of Multiple Inputs</title>
+</head>
+<body>
+  <h2>Sub 1: Enter Multiple Integers (0 to n)</h2>
+  <script>
+    function CalSum() {
+      var sum = 0;
+      var num;
+
+      do {
+        num = parseInt(prompt("Enter a num (0 to n):"));
+        if (!isNaN(num) && num !== 0) {
+          sum += num;
+        }
+      } while (num !== 0);
+
+      console.log("Total Sum:", sum);
+      alert("Total Sum: " + sum);
+    }
+    CalSum();
+  </script>
+</body>
+</html>
