@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+
+    .wireframe {
+      width: 600px;
+      background-color: rgb(4, 99, 97);
+      color: white;
+      padding: 6px;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .container {
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      
+      margin: 20px;
+      
+      
+    }
+
+    .header{
+      background-color: #b1d3d5;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .footer {
+      background-color: #b1d3d5;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .content-wrapper {
+      background-color: #e5ebee;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+     
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .intro,
+    .more-copy {
+      background-color: #b1d3d5;
+      width: 350px;
+      height: 140px;
+      text-align: center;
+      padding-top: 50px;
+      
+    }
+
+    .hero-column {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+    }
+
+    .hero {
+     
+      background-color: #b1d3d5;
+      text-align: center;
+      
+      padding: 59px;
+      
+    }
+
+    .cta {
+      width: 240px;
+      background-color: rgb(246, 242, 38);
+      text-align: center;
+      padding: 10px;
+    }
+
+    .features {
+      background-color: #b1d3d5;
+      padding: 30px;
+      text-align: center;
+     
+    }
+
+    .more-copy {
+      width: 300px;
+      height: 60px;
+      padding-top: 20px;
+     
+    }
+
+    .cta-bottom {
+      height: 60px;
+      width: 250px;
+      background-color: rgb(246, 242, 38);
+      text-align: center;
+      padding: 10px;
+     
+    }
+  </style>
+</head>
+<body>
+  <div class="wireframe">Original Wireframe</div>
+  <div class="container">
+    <div class="header">Header</div>
+
+    <div class="content-wrapper">
+      <div class="row">
+        <div class="intro">Intro Copy</div>
+        <div class="hero-column">
+          <div class="hero">Hero Image</div>
+          <div class="cta">Call to Action</div>
+        </div>
+      </div>
+
+      <div class="features">Features</div>
+
+      <div class="row">
+        <div class="more-copy">More Copy</div>
+        <div class="cta-bottom">Call to Action</div>
+      </div>
+    </div>
+
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html>
