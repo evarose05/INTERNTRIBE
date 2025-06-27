@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paragraph Tag</title>
+  <script>
+    function displayValue () {
+      const val = document.getElementById('txt').value;
+      document.getElementById('out').innerHTML = val;
+    }
+  </script>
+</head>
+<body>
+  <input id="txt" type="text" placeholder="Type something">
+  <button onclick="displayValue()">Display</button>
+  <p id="out"></p>
+</body>
+</html>

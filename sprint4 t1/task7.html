@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Events</title>
+  <style>
+    #box{width:200px;height:100px;border:1px solid #000;
+         display:flex;align-items:center;justify-content:center}
+  </style>
+  <script>
+    function enter () { 
+        box.textContent = 'Mouse entered!'; 
+    }
+    function leave () { 
+        box.textContent = 'Mouse left!'; 
+    }
+  </script>
+</head>
+<body>
+  <div id="box" onmouseenter="enter()" onmouseleave="leave()">Come Over Me</div>
+</body>
+</html>

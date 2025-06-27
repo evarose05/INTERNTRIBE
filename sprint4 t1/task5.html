@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OnChange Event</title>
+  <script>
+    function changed (e) {
+      document.getElementById('status').textContent ='Input Changed: ' + e.target.value;
+    }
+  </script>
+</head>
+<body>
+  <input type="text" onchange="changed(event)"placeholder="Type then press Enter">
+  <h1 id="status"></h1>
+</body>
+</html>
