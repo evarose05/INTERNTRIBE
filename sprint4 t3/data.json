@@ -1,0 +1,6 @@
+[
+  { "name": "Evangeline", "age": 19, "city": "Delhi", "Hobby":"Drawing" , "Skills": ["C", "Python", "Java"] },
+  { "name": "Feni", "age": 19, "city": "chennai", "Hobby":"Cooking" , "Skills": ["C++", "Java", "C"]  },
+  { "name": "Gopal", "age": 20, "city": "Mumbai", "Hobby":"Dancing" , "Skills": ["HTML", "C", "Java"]  },
+  { "name": "Abi", "age": 19, "city": "Mumbai", "Hobby":"Reading" , "Skills": ["Python", "C", "C++"]  }
+]

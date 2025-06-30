@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+  <h1>Task3</h1>
+
+  <script>
+    let jsonString = '[{"Name": "Evangeline", "email": "evangeline@gmail.com", "Skills": ["SQL", "C", "Java"]},' +
+                     '{"Name": "Rose", "email": "rose@gmail.com", "Skills": ["C", "HTML", "C++"]},' +
+                     '{"Name": "Eva", "email": "eva@gmail.com", "Skills": ["HTML", "JavaScript", "SQL"]}]';
+
+    let users = JSON.parse(jsonString);
+
+    users.forEach(function(user) {
+      console.log(user);
+    });
+  </script>
+</body>
+</html>
