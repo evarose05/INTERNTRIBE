@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task1</title>
+</head>
+<body>
+
+  <script>
+    function squareListTraditional(numbers) {
+      return numbers.map(function(num) {
+        return num * num;
+      });
+    }
+
+    const squareListArrow = (numbers) => numbers.map(num => num * num);
+
+    const input = [1, 2, 3, 4, 5];
+    console.log("Traditional:", squareListTraditional(input));
+    console.log("Arrow:", squareListArrow(input));
+  </script>
+</body>
+</html>

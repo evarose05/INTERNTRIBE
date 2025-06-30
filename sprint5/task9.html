@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Task9</h1>
+</head>
+<body>
+
+
+  <input type="text" id="word" placeholder="Enter word to check">
+  <button onclick="checkIncludes()">Check</button>
+
+  <script>
+    function checkIncludes() {
+      const sentence = 'The quick brown fox jumps over the lazy dog';
+      const word = document.getElementById("word").value;
+
+      const result = sentence.includes(word);
+      console.log("Includes word?:", result);
+    }
+  </script>
+
+</body>
+</html>

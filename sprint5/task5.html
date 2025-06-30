@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <button onclick="filterLongWords()">Filter Words</button>
+
+  <script>
+    function filterLongWords() {
+      const words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape'];
+      const filteredWords = words.filter(word => word.length > 5);
+
+      console.log("", filteredWords);
+    }
+  </script>
+
+</body>
+</html>

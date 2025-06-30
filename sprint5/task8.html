@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Task8</h1>
+</head>
+<body>
+
+  
+  <input type="text" id="inputValue" placeholder="Enter value (e.g., [1,2,3] or 'Hello')">
+  <button onclick="checkIfArray()">Check</button>
+
+  <script>
+    function checkIfArray() {
+      const input = document.getElementById("inputValue").value;
+
+      let parsedInput;
+      try {
+        parsedInput = JSON.parse(input);
+      } catch (e) {
+        parsedInput = input; 
+      }
+
+      const result = Array.isArray(parsedInput);
+      console.log("Is Array:", result);
+    }
+  </script>
+
+</body>
+</html>
