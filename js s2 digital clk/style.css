@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #58759f;
+  color: #2a2d30;
+}
+
+.clock-wrapper {
+  text-align: center;
+  padding: 2rem 4rem;
+  border: 3px solid #2b609d;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(249, 3, 3, 0.6);
+}
+
+#clock {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  letter-spacing: .08em;
+  margin: 0;
+}
+
+.greet {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  opacity: 0.75;
+}
