@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #151e56;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #efeff3;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.table-container {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #7b2525;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.results {
+  padding: 20px;
+  background-color: #7fb9e2;
+}
+
+.results div {
+  margin: 10px 0;
+}

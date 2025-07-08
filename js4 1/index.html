@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Management Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Employee Management Dashboard</h1>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search by name" />
+    <select id="departmentFilter">
+      <option value="">All Departments</option>
+      <option value="Engineering">Engineering</option>
+      <option value="HR">HR</option>
+      <option value="Sales">Sales</option>
+    </select>
+    <button onclick="convertNamesToUppercase()">Uppercase Names</button>
+    <button onclick="calculateAverageSalary()">Average Salary</button>
+  </section>
+
+  <section class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody id="employeeTableBody"></tbody>
+    </table>
+  </section>
+
+  <section class="results">
+    <div id="averageSalary">Average Salary: </div>
+    <div id="searchResult">Search Result: </div>
+    <div id="employeeCount">Total Employees: </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
